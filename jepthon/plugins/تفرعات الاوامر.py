@@ -15,7 +15,7 @@ from ..core.managers import edit_or_reply
 
 plugin_category = "extra"
 
-# اوامر الادمن لسورس الجوكر
+# اوامر الادمن لسورس جيبثون  امير
 
 @jepiq.ar_cmd(
     pattern="اوامر الحظر$",

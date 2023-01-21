@@ -119,7 +119,7 @@ async def reda(event):
                     except BaseException as er:
                         await jepiq.tgbot.send_message(BOTLOG_CHATID, f"حدث خطا \n{er}")
                 if "error_code" in reqt:
-                    await jepiq.tgbot.send_message(BOTLOG_CHATID, f"**حدث خطأ غير معروف قم باعادة توجيه الرسالة ل@lMl10l لحل المشكلة\n{reqt}**")
+                    await jepiq.tgbot.send_message(BOTLOG_CHATID, f"**حدث خطأ غير معروف قم باعادة توجيه الرسالة ل@A_M_E_Rll لحل المشكلة\n{reqt}**")
                 
                 return
             except BaseException as er:

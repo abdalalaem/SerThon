@@ -29,7 +29,7 @@ async def amireallyalive(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     EMOJI = gvarstatus("ALIVE_EMOJI") or "✇ ◅"
-    PING_TEXT = gvarstatus("PING_TEXT") or "**[ 𝗜 𝗝𝘂𝘀𝘁 𝗔𝘀𝗸𝗲𝗱 𝗙𝗼𝗿 𝗦𝗼𝗺𝗲 𝗣𝗲𝗮𝗰𝗲 🎀 ](t.me/Jepthon)**"
+    PING_TEXT = gvarstatus("PING_TEXT") or "**[ 𝗜 سورس جيبثون امير  🎀 ](t.me/rooiil)**"
     PING_IMG = gvarstatus("PING_PIC") or Config.P_PIC or "https://telegra.ph/file/fb62d70ce09f4a78dfc86.jpg"
     jepthon_caption = gvarstatus("PING_TEMPLATE") or temp
     caption = jepthon_caption.format(

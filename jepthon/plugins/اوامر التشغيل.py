@@ -30,7 +30,7 @@ plugin_category = "tools"
 async def _(event):
     "Restarts the bot !!"
     if BOTLOG:
-        await event.client.send_message(BOTLOG_CHATID, "**⌔︙الجوكر ↻** \n" "**᯽︙ تم اعادة تشغيل السورس بنجاح ✅ ↻**")
+        await event.client.send_message(BOTLOG_CHATID, "**⌔︙جيبثون امير ↻** \n" "**᯽︙ تم اعادة تشغيل السورس بنجاح ✅ ↻**")
     lMl10l = await edit_or_reply(event, "᯽︙ سيتم اعادة التشغيل انتظر ")
     await event.edit("0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒")
     await asyncio.sleep(2)

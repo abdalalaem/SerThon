@@ -79,8 +79,8 @@ async def startupmessage():
         if BOTLOG:
             Config.CATUBLOGO = await jepiq.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/07c892590a3441a1b87a3.jpg",
-                caption="**᯽︙ بــوت جيبثون امير يـعـمـل بـنـجـاح ✓ **\n**᯽︙ ارسل `.الاوامر` لرؤية اوامر السورس**",
+                "https://telegra.ph/file/51eb50d67367791e1b2ee.jpg",
+                caption="**᯽︙ بــوت جيبثون  يـعـمـل بـنـجـاح ✓ **\n**᯽︙ ارسل `.الاوامر` لرؤية اوامر السورس**",
                 buttons=[(Button.url("سورس جيبثون امير", "https://t.me/rooiil"),)],
             )
     except Exception as e:
@@ -284,7 +284,7 @@ async def verifyLoggerGroup():
         descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @rooiil"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/Jepthon.JPEG")
         _, groupid = await create_supergroup(
-            "مجموعة أشعارات جيبثون امير ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة أشعارات جيبثون  ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("᯽︙تم إنشاء مجموعة المسـاعدة بنجاح وإضافتها إلى المتغيرات.")
@@ -313,7 +313,7 @@ async def verifyLoggerGroup():
         descript = "᯽︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @rooiil"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/Jepthon2.JPEG")
         _, groupid = await create_supergroup(
-            "مجموعة التخزين جيبثون  امير", jepiq, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة التخزين جيبثون  ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
         print("تـم عمـل الكروب التخزين بنـجاح واضافة الـفارات الـيه.")
